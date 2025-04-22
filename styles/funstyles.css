@@ -1,0 +1,62 @@
+body{
+    font-family: 'Late', sans-serif;
+    font-size: 15px;
+    color: #00235d;
+    background-color: #FFFFFF;
+    line-height: 1.6;
+
+    /* border: 3px solid #2e8b57; */
+    margin: 20px;
+    padding: 10px;
+}
+
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+    color: #2e8b57;
+    margin-bottom: 0.5rem;
+}
+
+:root{
+    --navy: #002e5d;
+    --jade: #2e8b57;
+    --white: #ffffff;
+    --light-gray: #f5f5f5;
+    --soft-gold: #f7e1a0
+}
+
+.section{ margin-bottom: 4rem;}
+
+a{
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #00235d;
+}
+
+li{font-size: 14px;}
+
+#top{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.emphasizedText{
+    font-style: italic;
+    color: #2e8b57;
+}
+
+.tableau-embed{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tableau-embed iframe{
+    max-width: 100%;
+    height: auto;
+}
